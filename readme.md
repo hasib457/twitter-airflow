@@ -1,6 +1,6 @@
-# Twitter ETL DAG
+# Twitter ETL
 
-This DAG extracts data from the Twitter API using the `twitter_etl` function from the `twitter_etl` module, transforms it into a suitable format for analysis, and loads it into an S3 bucket. The `twitter_etl` function is run once a day.
+This Airflow DAG extracts data from the Twitter API using the `twitter_etl` function from the `twitter_etl` module, transforms it into a suitable format for analysis, and loads it into an S3 bucket. The `twitter_etl` function is run once a day.
 
 ![](diagram.png)
 ## Prerequisites
